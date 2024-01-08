@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   android:background="@drawable/_60_f_210459536_xmldeckq2dpenlvmheuweu9nm9agknih"
+                                                   android:backgroundTintMode="add">
+
+    <EditText
+            android:layout_width="332dp"
+            android:layout_height="176dp"
+            android:inputType="text"
+            android:text="Expenses"
+            android:ems="10"
+            android:id="@+id/editTextText3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.683"
+            app:layout_constraintVertical_bias="0.371"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:text="INR 0.00"
+            android:ems="10"
+            android:id="@+id/editTextText"
+            app:layout_constraintStart_toStartOf="@+id/editTextText3"
+            app:layout_constraintEnd_toEndOf="@+id/editTextText3" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.86"
+            app:layout_constraintVertical_bias="0.4"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:text="INR 0.00"
+            android:ems="10"
+            android:id="@+id/editTextText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.796"
+            app:layout_constraintVertical_bias="0.125"/>
+    <EditText
+            android:layout_width="332dp"
+            android:layout_height="176dp"
+            android:inputType="text"
+            android:text="Balance"
+            android:ems="10"
+            android:id="@+id/editTextText3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.683"
+            app:layout_constraintVertical_bias="0.028"/>
+    <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="409dp"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="311dp" android:id="@+id/textInputLayout">
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintVertical_bias="0.65">
+
+        <!-- Row 1 -->
+        <TableRow>
+
+            <!-- Cell 1 -->
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Purpose"
+                    android:padding="8dp"
+                    android:background="#CCCCCC"/>
+
+            <!-- Cell 2 -->
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Category"
+                    android:padding="8dp"
+                    android:background="#CCCCCC"/>
+
+            <!-- Cell 3 -->
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Transaction"
+                    android:padding="8dp"
+                    android:background="#CCCCCC"/>
+
+            <!-- Cell 4 -->
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Date"
+                    android:padding="8dp"
+                    android:background="#CCCCCC"/>
+        </TableRow>
+
+        <!-- Row 2 -->
+        <TableRow>
+
+            <!-- Cell 1 -->
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Row 2, Column 1"
+                    android:padding="8dp"
+                    android:background="#EEEEEE"/>
+
+            <!-- Cell 2 -->
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Row 2, Column 2"
+                    android:padding="8dp"
+                    android:background="#EEEEEE"/>
+
+            <!-- Cell 3 -->
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Row 2, Column 3"
+                    android:padding="8dp"
+                    android:background="#EEEEEE"/>
+
+            <!-- Cell 4 -->
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Row 2, Column 4"
+                    android:padding="8dp"
+                    android:background="#EEEEEE"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+            android:id="@+id/tableLayoutInput"
+            android:layout_width="406dp"
+            android:layout_height="130dp"
+            android:stretchColumns="*"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="0.9"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+        <!-- Row 1 -->
+        <TableRow>
+
+            <!-- Purpose -->
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Purpose"
+                    android:padding="8dp"
+                    android:background="#CCCCCC"/>
+
+            <!-- Category -->
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Category"
+                    android:padding="8dp"
+                    android:background="#CCCCCC"/>
+
+            <!-- Transaction -->
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Transaction"
+                    android:padding="8dp"
+                    android:background="#CCCCCC"/>
+
+            <!-- Date -->
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Date"
+                    android:padding="8dp"
+                    android:background="#CCCCCC"/>
+        </TableRow>
+
+        <!-- Row 2 -->
+        <TableRow>
+
+            <!-- EditText for Purpose -->
+            <EditText
+                    android:id="@+id/editTextPurpose"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="text"/>
+
+            <!-- EditText for Category -->
+            <EditText
+                    android:id="@+id/editTextCategory"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="text"/>
+
+            <!-- EditText for Transaction -->
+            <EditText
+                    android:id="@+id/editTextTransaction"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="text"/>
+
+            <!-- EditText for Date -->
+            <EditText
+                    android:id="@+id/editTextDate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="date"/>
+        </TableRow>
+    </TableLayout>
+
+    <!-- Button to Submit -->
+    <Button
+            android:id="@+id/buttonSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            app:layout_constraintTop_toBottomOf="@+id/tableLayoutInput"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
